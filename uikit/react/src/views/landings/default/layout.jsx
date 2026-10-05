@@ -1,38 +1,43 @@
 'use client';
-import PropTypes from 'prop-types';
-
-// @mui
-import Box from '@mui/material/Box';
-
-// @project
-import { Footer7 } from '@/blocks/footer';
-import { Navbar10 } from '@/blocks/navbar';
-import { NavbarContent10 } from '@/blocks/navbar/navbar-content';
 import ThemeProviders from '@/components/ThemeProvider';
-
-// @data
-import { navbar } from './data';
-
-/***************************  LAYOUT - MAIN  ***************************/
+import styles from '@/views/packing/shell.module.css';
 
 export default function MainLayout({ children }) {
   return (
     <ThemeProviders>
-      <>
-        {/* header section */}
-        <Box sx={{ bgcolor: 'grey.100' }}>
-          <Navbar10>
-            <NavbarContent10 {...navbar} />
-          </Navbar10>
-        </Box>
-        {/* app/(landing)/* */}
-        <main>{children}</main>
-
-        {/* footer section */}
-        <Footer7 />
-      </>
+      <div className={styles.shell}>
+        <a className={styles.skip} href="#contenido">
+          Saltar al contenido
+        </a>
+        <header className={styles.header}>
+          <a className={styles.brand} href="/" aria-label="Minnor Services, inicio">
+            <span className={styles.mark}>
+              m<span>.</span>
+            </span>
+            <span>
+              MINNOR<span className={styles.brandSub}>SERVICES</span>
+            </span>
+          </a>
+          <nav aria-label="Navegación principal">
+            <a href="/#servicios">Servicios</a>
+            <a href="/#temporada">Temporadas</a>
+            <a href="/#enfoque">Nuestro enfoque</a>
+          </nav>
+          <a className={styles.cta} href="/#contacto">
+            Cotizar proyecto ↗
+          </a>
+        </header>
+        <main id="contenido">{children}</main>
+        <footer className={styles.footer}>
+          <a className={styles.brand} href="/">
+            MINNOR SERVICES
+          </a>
+          <p>Infraestructura y mantención para packing.</p>
+          <a href="/servicios-packing.txt" download>
+            Catálogo de servicios ↗
+          </a>
+        </footer>
+      </div>
     </ThemeProviders>
   );
 }
-
-MainLayout.propTypes = { children: PropTypes.any };

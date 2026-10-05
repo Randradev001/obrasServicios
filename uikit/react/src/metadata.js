@@ -4,42 +4,18 @@ import { PAGE_PATH, SECTION_PATH } from '@/path';
 
 /***************************  SEO METADATA - MAIN LAYOUT  ***************************/
 
-const title = `${branding.brandName} ${branding.title}`;
-const description = `The multipurpose ${branding.brandName} UI Kit built with React and Material UI is designed for businesses of all sizes to streamline customer management, sales tracking, and marketing optimization. Create stunning SaaS landing and admin with just few clicks!`;
-
-const ogCommonMetadata = {
-  locale: 'en_US',
-  type: 'website',
-  siteName: `${branding.brandName}`,
-  images: '/assets/images/metadata/og.png' // recommended dimensions of 1200x630
-};
-
+const title = 'Minnor Services | Infraestructura y mantención para packing';
+const description =
+  'Construcción, estructuras metálicas, electricidad, obras civiles y mantención para packing, plantas de proceso, bodegas y áreas exteriores.';
+const ogCommonMetadata = { locale: 'es_CL', type: 'website', siteName: 'Minnor Services' };
 export const mainMetadata = {
-  title: {
-    template: `%s | ${title}`,
-    default: title // a default is required when creating a template
-  },
+  title: { template: '%s | Minnor Services', default: title },
   description,
-  applicationName: title,
-  keywords: [
-    'SaaS',
-    `${branding.brandName}`,
-    'Software as a Service',
-    'Cloud-based software',
-    'Project management tools',
-    'Enterprise software'
-  ],
-  creator: `${branding.company.name}`,
+  applicationName: 'Minnor Services',
+  keywords: ['packing', 'mantención industrial', 'estructuras metálicas', 'obras civiles', 'bodegas', 'infraestructura'],
   metadataBase: new URL(process.env.NEXT_PUBLIC_METADATA_BASE || 'http://localhost:3000'),
-  alternates: {
-    canonical: '/'
-  },
-  openGraph: {
-    title,
-    description,
-    url: '/',
-    ...ogCommonMetadata
-  }
+  alternates: { canonical: '/' },
+  openGraph: { title, description, url: '/', ...ogCommonMetadata }
 };
 
 /***************************  SEO METADATA - SECTIONS  ***************************/

@@ -1,16 +1,5 @@
-import dynamic from 'next/dynamic';
-
-// @project
-import { SEO_CONTENT } from '@/metadata';
-
-const Contact = dynamic(() => import('@/views/landings/default/contact'));
-
-/***************************  METADATA - CONTACT  ***************************/
-
-export const metadata = { ...SEO_CONTENT.contactUs };
-
-/***************************  PAGE - CONTACT  ***************************/
+import { redirect } from 'next/navigation';
 
 export default function ContactPage() {
-  return <Contact />;
+  redirect('/#contacto');
 }

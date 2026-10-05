@@ -1,27 +1,5 @@
-import PropTypes from 'prop-types';
-// @next
-import dynamic from 'next/dynamic';
+import MainLayout from '@/views/landings/default/layout';
 
-// @project
-const ScrollFab = dynamic(() => import('@/components/ScrollFab'));
-// const ThemeAI = dynamic(() => import('@/views/landings/ai/theme'));
-const MainLayout = dynamic(() => import('@/views/landings/default/layout'));
-
-/***************************  LAYOUT - AI  ***************************/
-
-export default function AI({ children }) {
-  return (
-    // <ThemeAI>
-    <MainLayout>
-      <>
-        {children}
-
-        {/* scroll to top section */}
-        <ScrollFab />
-      </>
-    </MainLayout>
-    // </ThemeAI>
-  );
+export default function DefaultLayout({ children }) {
+  return <MainLayout>{children}</MainLayout>;
 }
-
-AI.propTypes = { children: PropTypes.any };

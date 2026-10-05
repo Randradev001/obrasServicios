@@ -1,0 +1,243 @@
+[
+  {
+    "id": 1,
+    "title": "Estructuras metálicas y soldadura",
+    "items": [
+      "Fabricación y reparación de estructuras metálicas.",
+      "Portones y rejas.",
+      "Barandas y pasamanos.",
+      "Escaleras metálicas.",
+      "Plataformas de trabajo.",
+      "Pasarelas.",
+      "Soportes metálicos.",
+      "Racks y estanterías.",
+      "Protecciones para maquinaria.",
+      "Cierres perimetrales.",
+      "Cobertizos.",
+      "Techumbres.",
+      "Refuerzos estructurales.",
+      "Fabricación de estructuras a medida.",
+      "Reparación de estructuras existentes.",
+      "Soportes para líneas de proceso.",
+      "Protecciones contra impactos de grúa horquilla.",
+      "Modificaciones y adecuaciones de estructuras existentes."
+    ],
+    "note": ""
+  },
+  {
+    "id": 2,
+    "title": "Electricidad y mejoras eléctricas",
+    "items": [
+      "Instalación y reparación de luminarias.",
+      "Cambio y mejoramiento de iluminación LED.",
+      "Iluminación de bodegas.",
+      "Iluminación exterior.",
+      "Iluminación de patios y sectores de carga.",
+      "Instalación y reparación de enchufes.",
+      "Canalizaciones eléctricas.",
+      "Circuitos eléctricos.",
+      "Tableros eléctricos secundarios.",
+      "Alimentación eléctrica para equipos.",
+      "Ordenamiento de instalaciones existentes.",
+      "Instalación de sensores.",
+      "Mejoras de iluminación en áreas de trabajo.",
+      "Mantención eléctrica preventiva y correctiva."
+    ],
+    "note": "Los trabajos eléctricos que requieran certificación o autorización específica serán ejecutados conforme a la normativa vigente y por personal autorizado cuando corresponda."
+  },
+  {
+    "id": 3,
+    "title": "Obras civiles menores",
+    "items": [
+      "Trabajos de hormigón.",
+      "Construcción y reparación de radieres.",
+      "Reparación de pisos.",
+      "Nivelaciones.",
+      "Bases para maquinaria.",
+      "Bases para estructuras.",
+      "Reparación de muros.",
+      "Albañilería.",
+      "Construcción de estructuras menores.",
+      "Veredas.",
+      "Canaletas.",
+      "Reparación de pavimentos.",
+      "Trabajos de terminación.",
+      "Mejoramiento de accesos.",
+      "Reparación de zonas deterioradas.",
+      "Obras menores de ampliación y modificación."
+    ],
+    "note": ""
+  },
+  {
+    "id": 4,
+    "title": "Mantención general de infraestructura",
+    "items": [
+      "Reparación de puertas.",
+      "Reparación de ventanas.",
+      "Mantención y reparación de techumbres.",
+      "Reparación de canaletas.",
+      "Reparación de filtraciones.",
+      "Reparación de cierres.",
+      "Revestimientos.",
+      "Pintura.",
+      "Sellos y terminaciones.",
+      "Reparaciones menores.",
+      "Acondicionamiento de instalaciones.",
+      "Recuperación de infraestructura deteriorada.",
+      "Mantención preventiva.",
+      "Mantención correctiva."
+    ],
+    "note": ""
+  },
+  {
+    "id": 5,
+    "title": "Packing y áreas productivas",
+    "items": [
+      "Plataformas para operadores.",
+      "Pasarelas.",
+      "Modificaciones de estructuras.",
+      "Soportes para líneas de proceso.",
+      "Soportes para cintas transportadoras.",
+      "Protecciones de maquinaria.",
+      "Adecuaciones para nuevos equipos.",
+      "Bases de equipos.",
+      "Estructuras auxiliares.",
+      "Mejoras en zonas de proceso.",
+      "Adecuaciones pretemporada.",
+      "Reparaciones durante temporada.",
+      "Mejoras postemporada.",
+      "Apoyo en ampliaciones de planta.",
+      "Protecciones para zonas de tránsito.",
+      "Mejoramiento de accesos operacionales.",
+      "Fabricación de elementos especiales según necesidad."
+    ],
+    "note": ""
+  },
+  {
+    "id": 6,
+    "title": "Bodegas",
+    "items": [
+      "Fabricación e instalación de racks.",
+      "Estanterías.",
+      "Divisiones interiores.",
+      "Cierres.",
+      "Protecciones de columnas.",
+      "Protecciones contra impactos.",
+      "Reparación de pisos.",
+      "Mejoramiento de iluminación.",
+      "Señalización.",
+      "Adecuación y redistribución de espacios.",
+      "Construcción de zonas de almacenamiento.",
+      "Reparación de estructuras de almacenamiento."
+    ],
+    "note": ""
+  },
+  {
+    "id": 7,
+    "title": "Patios, estacionamientos y áreas exteriores",
+    "items": [
+      "Reparación y mejoramiento de pavimentos.",
+      "Demarcación de estacionamientos.",
+      "Topes de estacionamiento.",
+      "Protecciones metálicas.",
+      "Señalética.",
+      "Iluminación exterior.",
+      "Mejoramiento de accesos.",
+      "Portones.",
+      "Cierres.",
+      "Reparación de veredas.",
+      "Canalización de aguas lluvia.",
+      "Mejoramiento de sectores de carga y descarga.",
+      "Protecciones para zonas de tránsito de vehículos."
+    ],
+    "note": ""
+  },
+  {
+    "id": 8,
+    "title": "Seguridad industrial",
+    "items": [
+      "Fabricación e instalación de barandas.",
+      "Guarda cuerpos.",
+      "Pasamanos.",
+      "Protecciones para motores y equipos.",
+      "Cierres de zonas de riesgo.",
+      "Escaleras de acceso.",
+      "Plataformas seguras.",
+      "Protecciones antiimpacto.",
+      "Delimitación de áreas.",
+      "Mejoramiento de rutas peatonales.",
+      "Señalización de sectores.",
+      "Adecuaciones orientadas a prevención de accidentes."
+    ],
+    "note": ""
+  },
+  {
+    "id": 9,
+    "title": "Agua, canalización y drenaje",
+    "items": [
+      "Construcción y reparación de canaletas.",
+      "Sistemas de evacuación de aguas.",
+      "Reparación de filtraciones.",
+      "Pequeñas redes de agua.",
+      "Modificaciones menores de tuberías.",
+      "Drenajes.",
+      "Cámaras.",
+      "Mejoramiento de evacuación de aguas lluvia.",
+      "Soluciones para acumulación de agua en patios y áreas de trabajo."
+    ],
+    "note": ""
+  },
+  {
+    "id": 10,
+    "title": "Oficinas y áreas de personal",
+    "items": [
+      "Divisiones interiores.",
+      "Reparaciones generales.",
+      "Pintura.",
+      "Iluminación.",
+      "Enchufes.",
+      "Estructuras metálicas.",
+      "Habilitación de espacios.",
+      "Remodelaciones menores.",
+      "Mejoramiento de comedores.",
+      "Mejoramiento de vestidores.",
+      "Adecuación de áreas administrativas."
+    ],
+    "note": ""
+  },
+  {
+    "id": 11,
+    "title": "Mantención preventiva",
+    "items": [
+      "Estructuras metálicas.",
+      "Soldaduras.",
+      "Techumbres.",
+      "Pisos.",
+      "Iluminación.",
+      "Portones.",
+      "Cierres.",
+      "Barandas.",
+      "Plataformas.",
+      "Canaletas.",
+      "Accesos.",
+      "Infraestructura general."
+    ],
+    "note": ""
+  },
+  {
+    "id": 12,
+    "title": "Trabajos de emergencia y soporte operacional",
+    "items": [
+      "Estructuras dañadas.",
+      "Soldaduras de emergencia.",
+      "Protecciones quebradas.",
+      "Problemas eléctricos menores.",
+      "Filtraciones.",
+      "Reparación de portones.",
+      "Reparación de accesos.",
+      "Modificaciones necesarias para mantener operativa una línea o sector.",
+      "Adecuaciones de emergencia."
+    ],
+    "note": ""
+  }
+]
