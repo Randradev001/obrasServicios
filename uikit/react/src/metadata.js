@@ -4,14 +4,14 @@ import { PAGE_PATH, SECTION_PATH } from '@/path';
 
 /***************************  SEO METADATA - MAIN LAYOUT  ***************************/
 
-const title = 'Minnor Services | Infraestructura y mantención para packing';
+const title = 'AVICOR | Andrade Vargas Ingeniería & Construcción';
 const description =
   'Construcción, estructuras metálicas, electricidad, obras civiles y mantención para packing, plantas de proceso, bodegas y áreas exteriores.';
-const ogCommonMetadata = { locale: 'es_CL', type: 'website', siteName: 'Minnor Services' };
+const ogCommonMetadata = { locale: 'es_CL', type: 'website', siteName: 'AVICOR' };
 export const mainMetadata = {
-  title: { template: '%s | Minnor Services', default: title },
+  title: { template: '%s | AVICOR', default: title },
   description,
-  applicationName: 'Minnor Services',
+  applicationName: 'AVICOR',
   keywords: ['packing', 'mantención industrial', 'estructuras metálicas', 'obras civiles', 'bodegas', 'infraestructura'],
   metadataBase: new URL(process.env.NEXT_PUBLIC_METADATA_BASE || 'http://localhost:3000'),
   alternates: { canonical: '/' },

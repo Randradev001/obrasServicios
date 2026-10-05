@@ -182,8 +182,8 @@ export default function Packing() {
           </a>
           <a href="mailto:randrade@apinformatica.cl">randrade@apinformatica.cl</a>
           <a href="mailto:marcelo.andrade@apinformatica.cl">marcelo.andrade@apinformatica.cl</a>
-          <a className={styles.secondary} href="/servicios-packing.txt" download>
-            Descargar catálogo de servicios ↓
+          <a className={styles.secondary} href="/catalogo-avicor.pdf" download>
+            Descargar catálogo PDF ↓
           </a>
         </div>
       </section>

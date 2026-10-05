@@ -10,12 +10,12 @@ export default function MainLayout({ children }) {
           Saltar al contenido
         </a>
         <header className={styles.header}>
-          <a className={styles.brand} href="/" aria-label="Minnor Services, inicio">
+          <a className={styles.brand} href="/" aria-label="AVICOR, inicio">
             <span className={styles.mark}>
-              m<span>.</span>
+              A<span>.</span>
             </span>
             <span>
-              MINNOR<span className={styles.brandSub}>SERVICES</span>
+              AVICOR<span className={styles.brandSub}>INGENIERÍA &amp; CONSTRUCCIÓN</span>
             </span>
           </a>
           <nav aria-label="Navegación principal">
@@ -30,10 +30,10 @@ export default function MainLayout({ children }) {
         <main id="contenido">{children}</main>
         <footer className={styles.footer}>
           <a className={styles.brand} href="/">
-            MINNOR SERVICES
+            AVICOR
           </a>
-          <p>Infraestructura y mantención para packing.</p>
-          <a href="/servicios-packing.txt" download>
+          <p>Andrade Vargas Ingeniería &amp; Construcción.</p>
+          <a href="/catalogo-avicor.pdf" download>
             Catálogo de servicios ↗
           </a>
         </footer>
